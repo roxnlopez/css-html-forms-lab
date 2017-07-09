@@ -1,9 +1,4 @@
 /*-------- Utility Styles --------*/
-* {
-	box-sizing: border-box; 
-	/* ^^^ Forces all elements to include content, padding, and border as part of their width/height calculation: 
-	http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
-}
 
 body {
 	font-family: 'Proza Libre', sans-serif;
@@ -26,19 +21,25 @@ title{
 */
 
 /*-------- Main Styles --------*/
-.container {
-	width: 100%;
-
+h1 {
+	text-align: center;
 }
-
 .form {
-	float: left;
+	width: 40%;
 
 }
 
 .results {
-	float: right;
+	width: 40%;
 
+}
+
+.primary {
+	border-radius: 5px;
+	margin-top: 5px;
+	padding-top: 5px;
+	background-color: #A6DAA6;
+	color: white;
 }
 /* 
 	Make the main container the full width of the page.
@@ -52,57 +53,77 @@ title{
 
 form {
 	background-color: #E3E6EC;
-	text-align: center;
-	margin: 5px;
-	padding: 5px;
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin: 10px;
+    vertical-align: middle;
 	border-radius: 5px;
-	width: 400px;
+	padding-left: 50px;
+	padding: 20px;
 }
 
 .row {
 	margin: 20px;
-}
-
-.formGroup {
-	display: inline-block;
-	max-width: 
+	padding-left: 20px;
+	border-radius: 5px;
 }
 
 #name {
 	padding: 14px;
-	height: 48px;
-
+	height: 20px;
+	padding-left: 20px;
+	width: 60%;
+	border-radius: 5px;
 }
 
 #verb-1 {
 	padding: 10px;
+	margin: 15px;
+	padding-left: 20px;
+	border-radius: 5px;
 }
 
 #mission {
 	padding: 14px;
-	height: 100px;
-	width: 80%
+	height: 20px;
+	padding-left: 20px;
+	width: 50%;
+	border-radius: 5px;
 }
 
 .radio {
 	padding: 10px;
-	padding-left: 0;
 	display: block;
+	padding-left: 20px;
+	border-radius: 5px;
 }
 
 #noun-1 {
 	padding: 14px;
-	height: 48px;
+	height: 20px;
+	padding-left: 20px;
+	width: 80%
+	 -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .check {
 	padding: 10px;
 	display: block;
+	padding-left: 20px;
+	border-radius: 5px;
 }
 
 #noun-2 {
 	padding: 14px;
-	height: 48px;
+	height: 20px;
+	padding-left: 20px;
+	width: 80%
+	 -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 /* 
 
@@ -137,7 +158,17 @@ form {
 
 
 /*-------- Results Styles --------*/
-
+.results {
+	background-color: #C8DBB3;
+	padding: 20px;
+	width: 500px;
+	left: 20px;
+	float: right;
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 16px;
+	border-radius: 5px;
+	padding-right: 50px;
+}
 
 /* 
 
