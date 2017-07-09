@@ -26,7 +26,20 @@ title{
 */
 
 /*-------- Main Styles --------*/
+.container {
+	width: 100%;
 
+}
+
+.form {
+	float: left;
+
+}
+
+.results {
+	float: right;
+
+}
 /* 
 	Make the main container the full width of the page.
 
@@ -37,7 +50,60 @@ title{
 
 /*-------- Form Styles --------*/
 
+form {
+	background-color: #E3E6EC;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	width: 400px;
+}
 
+.row {
+	margin: 20px;
+}
+
+.formGroup {
+	display: inline-block;
+	max-width: 
+}
+
+#name {
+	padding: 14px;
+	height: 48px;
+
+}
+
+#verb-1 {
+	padding: 10px;
+}
+
+#mission {
+	padding: 14px;
+	height: 100px;
+	width: 80%
+}
+
+.radio {
+	padding: 10px;
+	padding-left: 0;
+	display: block;
+}
+
+#noun-1 {
+	padding: 14px;
+	height: 48px;
+}
+
+.check {
+	padding: 10px;
+	display: block;
+}
+
+#noun-2 {
+	padding: 14px;
+	height: 48px;
+}
 /* 
 
 	Make sure the form itself fills the width of whatever container its in, but no larger than 500px.
